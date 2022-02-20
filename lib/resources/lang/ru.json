@@ -1,0 +1,11 @@
+{
+  "title_app_name": "Мой Чат",
+  "title_login": "Ник",
+  "hint_login": "Введите ник",
+  "hint_message": "Сообщение ...",
+  "message_list_is_empty": "Нет данных",
+  "error_internet_connection_failed": "Отсутствует интернет соединение!",
+  "error_is_max_limit": "Достигнут лимит длины поля",
+  "error_field_is_empty": "Поле не заполнено",
+  "error_invalid_field_length": "Недопустимая длина поля"
+}

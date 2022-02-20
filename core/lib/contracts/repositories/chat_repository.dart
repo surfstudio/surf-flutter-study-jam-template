@@ -1,6 +1,5 @@
-import 'package:surf_practice_chat_flutter/data/chat/models/geolocation.dart';
-import 'package:surf_practice_chat_flutter/data/chat/models/message.dart';
-import 'package:surf_practice_chat_flutter/data/chat/models/user.dart';
+import 'package:core/models/dtos/geolocation.dart';
+import 'package:core/models/dtos/message/chat_message_dto.dart';
 
 /// Chat data holder.
 ///
@@ -51,22 +50,4 @@ abstract class ChatRepository {
     required ChatGeolocationDto location,
     String? message,
   });
-}
-
-class InvalidNameException implements Exception {
-  final String message;
-
-  const InvalidNameException(this.message);
-
-  @override
-  String toString() => 'InvalidNameException(message: $message)';
-}
-
-class InvalidMessageException implements Exception {
-  final String message;
-
-  const InvalidMessageException(this.message);
-
-  @override
-  String toString() => 'InvalidMessageException(message: $message)';
 }
